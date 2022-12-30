@@ -1,0 +1,5 @@
+.body {
+    background: lightgrey;
+    display: flex;
+    flex-flow: wrap;
+}

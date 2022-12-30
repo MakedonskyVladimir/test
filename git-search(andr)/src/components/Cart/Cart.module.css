@@ -1,0 +1,76 @@
+.wrap {
+    height: 230px;
+    width: 460px;
+    border: 1px solid black;
+    background: white;
+    display: grid;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 3fr 2fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+    grid-template-areas: "p p p p p p""a a n n n n""s sq e wq wq wq""k k k k k m";
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+}
+
+.project {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    grid-area: p;
+}
+
+.avatar {
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    grid-area: a;
+}
+
+.name {
+    font-size: 30px;
+    vertical-align: middle;
+    margin-top: 25px;
+    margin-left: 30px;
+    grid-area: n;
+}
+
+.star {
+    width: 20px;
+    grid-area: s;
+    margin-left: 25px;
+}
+
+.starcount {
+    font-size: 18px;
+    grid-area: sq;
+}
+
+.eye {
+    width: 20px;
+    grid-area: e;
+    margin-left: 25px;
+
+}
+
+.viewcount {
+    grid-area: wq;
+    font-size: 18px;
+}
+
+.komment {
+    grid-area: k;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    ;
+}
+
+.pencil {
+    width: 40px;
+    grid-area: m;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}

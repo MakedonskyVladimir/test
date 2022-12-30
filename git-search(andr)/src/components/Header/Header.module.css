@@ -1,0 +1,28 @@
+.wrap {
+    background: lightgrey;
+    display: grid;
+    grid-template-columns: 5fr 1fr 4fr;
+    grid-template-areas: "i l t";
+    padding: 10px;
+}
+.input {
+    width: 100%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-area: i;
+}
+.loupe {
+    width: 45px;
+    margin-left: 15px;
+    grid-area: l;
+}
+.loupe:hover {
+    cursor: pointer;
+}
+.title {
+    grid-area: t;
+    font-size: 18px;
+    font-weight: bold
+    ;
+}
